@@ -16,6 +16,9 @@
 .row{
   margin: 0px!important;
 }
+body{
+    background-image: url(./images/cap.jpg);
+}
 .jumbotron{
     background-image: url(./images/cap.jpg);
     height: 100vh;
@@ -24,7 +27,7 @@
     margin-bottom: 0px!important;
 }
 
-@media (min-width: 320px) and (max-width: 767px){
+@media (min-width: 320px) and (max-width: 768px){
      .jumbotron h1 {
         font-size: 30px;
     }
@@ -56,6 +59,7 @@
     }
     .card{
       margin: auto !important;
+      margin-top: 10px !important;
     }
 }
 
