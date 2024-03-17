@@ -253,3 +253,23 @@ footer p{
 .card:hover img {
   transform: scale(1.03);
 }
+.navi{
+  color: white;
+}
+
+.navi:hover{
+  color: #00FF00 !important;
+}
+.navi::before{
+  content:  "";
+  display: block;
+  height: 5px;
+  width: 0%;
+  background-color: #00FF00;
+  opacity: 70%;
+  transition:  all ease-in-out 250ms;
+
+}
+.navi:hover::before{
+  width: 100%;
+}

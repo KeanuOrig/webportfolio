@@ -2,17 +2,17 @@ let inner = document.querySelector("#inner")
 
 	inner.innerHTML =
 					`
+					<h5>Back End Developer<span class="at"> @ </span>Petnet Inc.</h5>
+					<p class="para">03/2016 - Present</p>
+					<ul class="para pl-5">
+					   <li>Developed and maintained RESTful APIs, microservices, and backend services using Laravel and Lumen frameworks.</li>
+					   <li>Participated in code reviews, testing, and debugging to ensure code quality,performance, and security standards were met.</li>
+					   <li>Implemented Google Cloud Logging for standardized and efficient logging of API calls,improving troubleshooting and reliability.</li>
+					</ul>
 					 <h5>Instrument Engineer <span class="at"> @ </span>Chiyoda Philippines Corporation</h5>
-					 <p class="para">09/2018 - Present</p>
+					 <p class="para">09/2018 - 04/2022</p>
 					 <ul class="para pl-5">
 						<li>Expedited construction and instrument design deliverables in collaboration with other disciplines.</li>
-						<li>Involved in the Safety Integrated Level (SIL) study.</li>
-						<li>Planned and drafted cable tray systems.</li>
-					 </ul>
-					 <h5>Intern<span class="at"> @ </span>Now Corporation</h5>
-					 <p class="para">03/2016 - 06/2016</p>
-					 <ul class="para pl-5">
-						<li>Provided technical engineering support for the microwave link design, installation, and testing.</li>
 					 </ul>
 					`
 	;
@@ -20,17 +20,17 @@ let inner = document.querySelector("#inner")
 document.getElementById("but1").addEventListener("mouseover", function but(){
 	inner.innerHTML =
 					`
+					<h5>Back End Developer<span class="at"> @ </span>Petnet Inc.</h5>
+					<p class="para">03/2016 - Present</p>
+					<ul class="para pl-5">
+					   <li>Developed and maintained RESTful APIs, microservices, and backend services using Laravel and Lumen frameworks.</li>
+					   <li>Participated in code reviews, testing, and debugging to ensure code quality,performance, and security standards were met.</li>
+					   <li>Implemented Google Cloud Logging for standardized and efficient logging of API calls,improving troubleshooting and reliability.</li>
+					</ul>
 					 <h5>Instrument Engineer <span class="at"> @ </span>Chiyoda Philippines Corporation</h5>
-					 <p class="para">09/2018 - Present</p>
+					 <p class="para">09/2018 - 04/2022</p>
 					 <ul class="para pl-5">
 						<li>Expedited construction and instrument design deliverables in collaboration with other disciplines.</li>
-						<li>Involved in the Safety Integrated Level (SIL) study.</li>
-						<li>Planned and drafted cable tray systems.</li>
-					 </ul>
-					 <h5>Intern<span class="at"> @ </span>Now Corporation</h5>
-					 <p class="para">03/2016 - 06/2016</p>
-					 <ul class="para pl-5">
-						<li>Provided technical engineering support for the microwave link design, installation, and testing.</li>
 					 </ul>
 					`
 	});
@@ -50,7 +50,7 @@ document.getElementById("but3").addEventListener("mouseover", function but(){
 	inner.innerHTML =
 					`
 					 <h5>Bootcamper<span class="at"> @ </span>Zuitt</h6>
-					 <p class="para">08/2021 - Present</p>
+					 <p class="para">08/2021 - 01/2022</p>
 					 <ul class="para pl-5">
 						<li>Full Stack Web development</li>
 					 </ul>
